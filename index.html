@@ -2,77 +2,123 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <title>RSA Team</title>
-
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="theme-color" content="#000000">
+    <link href="/static/css/bootstrap.css"
+          rel="stylesheet">
+    <link href="/static/css/bootstrap-icons.css"
+          rel="stylesheet">
+    <link href="/static/css/style.css"
+          rel="stylesheet">
+    <title>Роман Александров. Python разработчик</title>
 </head>
-<body>
-<div class="container-md">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">RSATeam</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Главная</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Проекты</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Обо мне</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main class="mt-3">
-        <div class="d-flex">
-            <div class="card m-2">
-                <div class="card-header">
-                    Технологии
-                </div>
-                <div class="card-body">
-                    <div class="mt-1">
-                        <img src="https://img.shields.io/badge/django-ed8b00?style=for-the-badge&logo=django">
-                        <img src="https://img.shields.io/badge/flask-ed8b00?style=for-the-badge&logo=flask">
-                        <img src="https://img.shields.io/badge/fastapi-ed8b00?style=for-the-badge&logo=fastapi">
-                    </div>
-                    <div class="mt-1">
-                        <img src="https://img.shields.io/badge/react-ed8b00?style=for-the-badge&logo=react">
-<!--                        <img src="https://img.shields.io/badge/flask-ed8b00?style=for-the-badge&logo=flask">-->
-<!--                        <img src="https://img.shields.io/badge/fastapi-ed8b00?style=for-the-badge&logo=fastapi">-->
-                    </div>
-                </div>
-
-            </div>
-            <div class="card m-2">
-                <div class="card-header">
-                    Языки программирования
-                </div>
-                <div class="card-body">
-                    <div class="mt-1">
-                        <img src="https://img.shields.io/badge/python-ed8b00?style=for-the-badge&logo=python">
-                        <img src="https://img.shields.io/badge/c%2B%2B-ed8b00?style=for-the-badge&logo=c%2B%2B">
-                        <img src="https://img.shields.io/badge/node.js-ed8b00?style=for-the-badge&logo=node.js">
-                    </div>
-                </div>
-            </div>
+<body data-bs-theme="dark">
+<header class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <span class="navbar-brand">RSATeam</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            Главная
+                        </a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/resume">
+                            Резюме
+                        </a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/portfolio">
+                            Портфолио
+                        </a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacts">
+                            Контакты
+                        </a>
+                    </li>
+                
+            </ul>
         </div>
-    </main>
-    <footer class="text-center">
-        <hr>
-        &copy; 2023 RSATeam
-    </footer>
+    </div>
+</nav>
+</header>
+<main class="container mt-2">
+    
+    
+        <div class="rounded-3 p-3 mt-3 mb-3"
+             style="background-color: var(--bs-dark-bg-subtle)">
+            <h3>
+                Title: Третий пост - новости
+            </h3>
+            <small>Date: 2022-06-14</small>
+            <p>
+                <i>Description: Новые секции сайта</i>
+            </p>
+            <p>
+                <p>Помимо блога, на сайте будут разделы с резюме и описанием профессиональных 
+скиллов (hard и soft) ...
+            </p>
+            <a href="/posts/03_post/"><span>Читать</span></a>
+        </div>
+    
+        <div class="rounded-3 p-3 mt-3 mb-3"
+             style="background-color: var(--bs-dark-bg-subtle)">
+            <h3>
+                Title: Второй пост
+            </h3>
+            <small>Date: 2022-06-13</small>
+            <p>
+                <i>Description: Блогу нужен новый дизайн</i>
+            </p>
+            <p>
+                <p>Блог на Flask благополучно работает на 28 строчках кода:). Чтобы страница выглядела интереснее, м ...
+            </p>
+            <a href="/posts/02_post/"><span>Читать</span></a>
+        </div>
+    
+        <div class="rounded-3 p-3 mt-3 mb-3"
+             style="background-color: var(--bs-dark-bg-subtle)">
+            <h3>
+                Title: Первая запись в новом блоге
+            </h3>
+            <small>Date: 2022-06-12</small>
+            <p>
+                <i>Description: Показываю некоторые возможности Markdown</i>
+            </p>
+            <p>
+                <p>Все посты для блога написаны в формате Markdown. Так можно выделить текст <em>курсивом</em>, а та ...
+            </p>
+            <a href="/posts/01_post/"><span>Читать</span></a>
+        </div>
+    
+
+</main>
+<footer class="container">
+    <div class="social-links">
+    <a href="https://t.me/rsaleksandrov">
+        <i class="bi bi-telegram" aria-hidden="true"></i>
+    </a>
+    <a href="mailto:rsaleksandrov@yandex.ru">
+        <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+    </a>
+    <a href="tel:+798389813">
+        <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+    </a>
 </div>
+</footer>
+<script src="/static/js/bootstrap.bundle.js"></script>
 </body>
 </html>
