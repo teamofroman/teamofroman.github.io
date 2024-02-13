@@ -26,22 +26,12 @@
     font-size: 18px;
     font-weight: 500;
     padding: 0;
-    line-height: 1px;
     margin: 0 0 20px 0;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
-.block-title::after {
-    content: "";
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background: #1e90ff;
-    margin: 4px 10px;
-}
-
-.contact-block {
+.block {
     background-color: rgba(var(--bs-tertiary-bg-rgb), 1);
     width: 100%;
     padding: 20px;
@@ -52,7 +42,7 @@
     border-radius: 0.5rem;
 }
 
-.contact-block .contact-icon {
+.block .icon {
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -66,16 +56,20 @@
     height: 50px;
 }
 
-.contact-block .contact-title {
+.block .title {
     font-weight: bolder;
     text-transform: uppercase;
 }
 
-.contact-block .contact-link {
+.link {
     text-decoration: none;
     color: #1e90ff;
 }
 
-.contact-block .contact-link:hover {
+.link:hover {
     text-decoration: underline;
+}
+
+.project-info {
+    font-size: 14px;
 }

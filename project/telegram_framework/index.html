@@ -58,53 +58,58 @@
 </header>
 <main class="container mt-2">
     
-    
-        <div class="rounded-3 p-3 mt-3 mb-3"
-             style="background-color: var(--bs-dark-bg-subtle)">
-            <h3>
-                Title: Третий пост - новости
-            </h3>
-            <small>Date: 2022-06-14</small>
-            <p>
-                <i>Description: Новые секции сайта</i>
-            </p>
-            <p>
-                <p>Помимо блога, на сайте будут разделы с резюме и описанием профессиональных 
-скиллов (hard и soft) ...
-            </p>
-            <a href="/posts/03_post/"><span>Читать</span></a>
+    <div class="rounded-3 p-3 mt-3 mb-3"
+         style="background-color: var(--bs-dark-bg-subtle)">
+        <p class="block-title">Проект: Telegram фреймворк</p>
+        <div class="d-flex flex-column mt-2">
+            <div class="row">
+                <div class="col-md-2 project-info">
+                    Начат 2024-01-12
+                </div>
+                <div class="col-md-2 project-info">
+                    Статус:
+                    
+                        <span class="text-warning">в разработке</span>
+                    
+                </div>
+                <div class="col-md-8 project-info">
+                    <a href="https://github.com/teamofroman/simple_telegram_bot" class="link" target="_blank">
+                        Репозиторий &nbsp;
+                        <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-3">
+                Простой фреймворк для работы с Telegram посредством Telegram Bot API
+            </div>
+            <div class="mt-3">
+                <p>Демонстрирует работу с Telegram Bot API</p>
+<p><strong>Реализовано</strong></p>
+<ul>
+<li>
+<p>базовый класс <code>Bot</code>: отправка запроса на сервер, цикл периодического 
+  опроса Telegram на наличие новых сообщений</p>
+</li>
+<li>
+<p>функция разборки поступивших сообщений. Пока определяется только наличие 
+  новых сообщений и измененных сообщений</p>
+</li>
+</ul>
+<p><strong>Технологии:</strong></p>
+<ul>
+<li>
+<p>Python 3.10</p>
+</li>
+<li>
+<p>Асинхронный http</p>
+</li>
+<li>
+<p>poetry</p>
+</li>
+</ul>
+            </div>
         </div>
-    
-        <div class="rounded-3 p-3 mt-3 mb-3"
-             style="background-color: var(--bs-dark-bg-subtle)">
-            <h3>
-                Title: Второй пост
-            </h3>
-            <small>Date: 2022-06-13</small>
-            <p>
-                <i>Description: Блогу нужен новый дизайн</i>
-            </p>
-            <p>
-                <p>Блог на Flask благополучно работает на 28 строчках кода:). Чтобы страница выглядела интереснее, м ...
-            </p>
-            <a href="/posts/02_post/"><span>Читать</span></a>
-        </div>
-    
-        <div class="rounded-3 p-3 mt-3 mb-3"
-             style="background-color: var(--bs-dark-bg-subtle)">
-            <h3>
-                Title: Первая запись в новом блоге
-            </h3>
-            <small>Date: 2022-06-12</small>
-            <p>
-                <i>Description: Показываю некоторые возможности Markdown</i>
-            </p>
-            <p>
-                <p>Все посты для блога написаны в формате Markdown. Так можно выделить текст <em>курсивом</em>, а та ...
-            </p>
-            <a href="/posts/01_post/"><span>Читать</span></a>
-        </div>
-    
+    </div>
 
 </main>
 <footer class="container">
