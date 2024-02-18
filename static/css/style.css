@@ -1,11 +1,10 @@
 .social-links {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
-    border-top: 2px solid #1e90ff;
 }
 
 .social-links a {
@@ -14,12 +13,12 @@
     justify-content: center;
     align-items: center;
     background: var(--bs-dark-bg-subtle);
-    color: #1e90ff;
+    color: #fff;
     line-height: 1;
-    margin-right: 8px;
+    margin-right: 30px;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
 }
 
 .block-title {
@@ -72,4 +71,18 @@
 
 .project-info {
     font-size: 14px;
+}
+
+.title-block {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.title-block h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
 }
